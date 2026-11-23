@@ -6,11 +6,11 @@
 
 ## The letter: K — "knackered"
 
-One letter, one day: **K** stands for **knackered** — dead-tired in the most vivid, funny, and honest way possible, the word you mutter when the day has wrung you out completely and K lands it with a perfect hard snap.
+If your whole day had to fit in a single letter, today it is **K**. K stands for **knackered** — that gloriously blunt British word for being completely, utterly worn out. Not just tired: the kind of tired where the day has taken everything you had and left you grinning about it anyway. One hard consonant, one honest word, one very long day summed up in a single keystroke — and K delivers it with a snap no other letter can match.
 
 ## How it works
 
-`main.ts` (Node 22, stdlib only) writes exactly one character — `K`, no trailing newline — to `/output/entry.txt` (or `$OUTPUT_DIR/entry.txt`).
+`main.ts` runs on Node 22 with stdlib only (`node:fs`, `node:path`). It creates the output directory if needed and writes exactly one character — `K`, with no trailing newline and no extra text — to `entry.txt` inside `/output` (or `$OUTPUT_DIR` when set).
 
 ```sh
 npm start
